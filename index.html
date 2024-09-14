@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <title>Hesap Makinası</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div id="container">
+            <fieldset class="container">
+                <form name="calculator">
+                    <input type="text" id="screen" name="screen" readonly>
+
+                    <input type="button" class="button digits" value="7" onclick="calculator.screen.value += '7'">
+                    <input type="button" class="button digits" value="8" onclick="calculator.screen.value += '8' ">
+                    <input type="button" class="button digits" value="9" onclick="calculator.screen.value += '9' ">
+                    <input type="button" class="button mathButtons" value="+" onclick="calculator.screen.value += '+' ">
+                    <br>
+                    <input type="button" class="button digits" value="4" onclick="calculator.screen.value += '4' ">
+                    <input type="button" class="button digits" value="5" onclick="calculator.screen.value += '5'">
+                    <input type="button" class="button digits" value="6" onclick="calculator.screen.value +='6'">
+                    <input type="button" class="button mathButtons" value="-" onclick="calculator.screen.value += '-'">
+                    <br>
+                    <input type="button" class="button digits" value="1" onclick="calculator.screen.value += '1'">
+                    <input type="button" class="button digits" value="2" onclick="calculator.screen.value +='2'">
+                    <input type="button" class="button digits" value="3" onclick="calculator.screen.value +='3'">
+                    <input type="button" class="button mathButtons" value="*" onclick="calculator.screen.value += '*'">
+                    <br>
+                    <input id="clearButton" type="button" class="button mathButtons" value="C" onclick="calculator.screen.value += ' '">
+                    <input type="button" class="button digits" value="0" onclick="calculator.screen.value += '0'">
+                    <input type="button" class="button mathButtons" value="=" onclick="calculator.screen.value = eval(calculator.screen.value)">
+                    <input type="button" class="button mathButtons" value="/" onclick="calculator.screen.value += ' / '">
+
+
+
+
+
+
+
+
+
+                    
+
+
+
+
+                </form>
+            </fieldset>
+        </div>
+
+
+
+
+    </body>
+
+</html>
